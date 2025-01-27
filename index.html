@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input id="Nombre" type="text">
+        </div>
+
+        <div>
+            <label for="Apellidos">Apellidos:</label>
+            <input id="Apellidos" type="text">
+        </div>
+
+        <div>
+            <label for="Edad">Edad:</label>
+            <input id="Edad" type="number">
+        </div>
+        
+        <div>
+            <label for="Fecha">Fecha de nacimiento:</label>
+            <input id="Fecha" type="date">
+        </div>
+        
+        <div>
+            <label for="Correo">Correo</label>
+            <input id="Correo" type="email" value="@gmail.com">
+        </div>
+
+        <div>
+            <label for="Desplegable">Estado laboral</label>
+            <select name="Opciones" id="Desplegable">
+                <option disabled selected> Estado laboral </option>
+                <optgroup label="Estudiando">
+                <option value="1">Estudiante</option>
+                </optgroup>
+                <optgroup label="Otros:">
+                    <option value="2">Trabajando</option>
+                    <option value="3">En paro</option>
+                    <option value="4">Jubilad@</option>
+                </optgroup>  
+            </select>
+        </div>
+
+        <div>
+            <label for="Contraseña">Contraseña</label>
+            <input id="Contraseña" type="text" placeholder="Introduce tu contraseña">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>    
+</body>
+</html>
