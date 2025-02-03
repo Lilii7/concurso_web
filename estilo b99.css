@@ -130,8 +130,9 @@ img:hover{
 }
 
 .container{
-    background-color: #0052a588;
+    background-color: #003366;
     border-radius: 10px;
+    width: 50%
 }
 
 
