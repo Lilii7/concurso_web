@@ -130,9 +130,12 @@ img:hover{
 }
 
 .container{
-    background-color: #003366;
+     max-height: fit-content;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 20px;
     border-radius: 10px;
-    width: 50%
+    background-color: #003366;
 }
 
 
